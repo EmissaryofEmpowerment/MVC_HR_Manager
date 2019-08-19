@@ -19,6 +19,7 @@ public class Employee
     {
         Morning, Afternoon, Evening, Night, Graveyard
     }
+    public Employee.Shift WorkShift { get; set; }
 
    
 
