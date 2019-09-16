@@ -20,13 +20,9 @@ public class Employee
         Morning, Afternoon, Evening, Night, Graveyard
     }
     public Employee.Shift WorkShift { get; set; }
-
-   
-
+public Employee Manager { get; set; }
+    public string FavoriteColor { get; set; }
     /*
-·  Shift
-
-·  Manager
 
 ·  Team Member Photo
 
